@@ -6,6 +6,6 @@ website 3tn-landing
 واجهة تعريف لشركة 3TN (عربي/RTL) بتأثير زجاج وخلفية متحركة.
 
 ## Demo
-سيتم النشر على GitHub Pages: https://YOUR_USERNAME.github.io/3tn-landing/
+سيتم النشر على GitHub Pages: https://malolofi12.github.io/3tn-landing/
 
 ## Structure
