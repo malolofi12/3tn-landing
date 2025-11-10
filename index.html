@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>3TN — شركة تقنية | شبكات · سيرفرات · سحابة · تطوير ويب · أمن</title>
+  <meta name="description" content="3TN شركة تقنية تقدم حلول شبكات متقدمة، إدارة سيرفرات، وتطوير مواقع وتطبيقات ويب، بهدف دعم التحول الرقمي ورفع كفاءة الأعمال من خلال حلول موثوقة ومرنة وعالية الأداء.">
+  <meta property="og:title" content="3TN — حلول شبكات وسيرفرات وتطوير ويب">
+  <meta property="og:description" content="حلول موثوقة ومرنة وعالية الأداء لدعم التحول الرقمي.">
+  <meta property="og:image" content="assets/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body class="bg-[#0a0d12] text-gray-100">
+  <!-- خلفية متحركة -->
+  <div class="bg-animated" aria-hidden="true">
+    <div class="particles">
+      <span class="dot" style="top:20%; right:18%"></span>
+      <span class="dot blue" style="top:60%; right:75%"></span>
+      <span class="dot" style="top:75%; right:35%"></span>
+      <span class="dot blue" style="top:30%; right:60%"></span>
+      <span class="dot" style="top:45%; right:10%"></span>
+    </div>
+  </div>
+
+  <!-- شريط علوي -->
+  <header class="sticky top-0 z-40 bg-[#0a0d12]/70 backdrop-blur border-b border-gray-800">
+    <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-2">
+        <img src="assets/logo.svg" alt="3TN Logo" class="w-8 h-8 rounded-xl bg-gradient-to-r from-[#427AF4] to-[#12D8FA]" />
+        <span class="font-bold tracking-tight text-white">3TN</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#about" class="hover:text-white text-gray-300">من نحن</a>
+        <a href="#services" class="hover:text-white text-gray-300">خدماتنا</a>
+        <a href="#pricing" class="hover:text-white text-gray-300">الباقات</a>
+        <a href="#contact" class="hover:text-white text-gray-300">تواصل</a>
+      </nav>
+      <a href="#contact" class="px-4 py-2 rounded-xl btn-primary text-sm transition">ابدأ الآن</a>
+    </div>
+  </header>
+
+  <!-- هيرو -->
+  <section id="home" class="relative">
+    <div class="max-w-6xl mx-auto px-4 py-16 grid lg:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl font-extrabold leading-tight text-white">
+          حلول تقنية موثوقة ومرنة وعالية الأداء
+          <span class="grad-text">لدعم التحول الرقمي</span>
+        </h1>
+        <p class="mt-4 text-gray-300">
+          3TN شركة تقنية تقدم حلول شبكات متقدمة، إدارة سيرفرات، وتطوير مواقع وتطبيقات ويب، بهدف دعم التحول الرقمي ورفع كفاءة الأعمال.
+        </p>
+        <form class="mt-6 flex flex-col sm:flex-row gap-3" onsubmit="event.preventDefault(); document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+          <label class="sr-only" for="email">البريد</label>
+          <input id="email" type="email" placeholder="أدخل بريدك للتواصل"
+                 class="h-12 px-4 rounded-2xl glass flex-1 min-w-[240px] placeholder:text-gray-400">
+          <button class="h-12 px-5 rounded-2xl btn-primary">اطلب استشارة</button>
+        </form>
+        <div class="mt-4 text-sm text-gray-400 flex gap-4">
+          <span>حلول شبكات</span><span>إدارة سيرفرات</span><span>تطوير ويب</span>
+        </div>
+      </div>
+
+      <!-- بطاقات مختصرة -->
+      <div class="relative grid sm:grid-cols-2 gap-4">
+        <div class="card p-4">
+          <p class="font-semibold text-white">حلول شبكات متكاملة</p>
+          <p class="text-sm text-gray-300 mt-1">LAN/WAN، سويتش/راوتر/فايروول، Wi-Fi، مراقبة IP.</p>
+          <a href="#services" class="mt-3 inline-flex items-center gap-1 text-sm link">
+            تفاصيل أكثر <span class="chev">←</span>
+          </a>
+        </div>
+        <div class="card p-4">
+          <p class="font-semibold text-white">إدارة السيرفرات والبنية</p>
+          <p class="text-sm text-gray-300 mt-1">Linux/Windows، قواعد بيانات، نسخ احتياطي، سياسات أمان.</p>
+          <a href="#services" class="mt-3 inline-flex items-center gap-1 text-sm link">
+            تفاصيل أكثر <span class="chev">←</span>
+          </a>
+        </div>
+        <div class="card p-4">
+          <p class="font-semibold text-white">خدمات سحابية</p>
+          <p class="text-sm text-gray-300 mt-1">AWS/Azure/GCP/DO، VPS & Docker، Load Balancing.</p>
+          <a href="#services" class="mt-3 inline-flex items-center gap-1 text-sm link">
+            تفاصيل أكثر <span class="chev">←</span>
+          </a>
+        </div>
+        <div class="card p-4">
+          <p class="font-semibold text-white">تطوير مواقع وتطبيقات ويب</p>
+          <p class="text-sm text-gray-300 mt-1">مواقع شركات ومتاجر، CMS، لوحات تحكم، تكامل APIs.</p>
+          <a href="#services" class="mt-3 inline-flex items-center gap-1 text-sm link">
+            تفاصيل أكثر <span class="chev">←</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- من نحن -->
+  <section id="about" class="py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid lg:grid-cols-3 gap-4">
+        <div class="card p-6 lg:col-span-2">
+          <h2 class="text-2xl font-bold text-white">من نحن</h2>
+          <p class="mt-3 text-gray-300 leading-7">
+            3TN شركة تقنية تقدم حلول شبكات متقدمة، إدارة سيرفرات، وتطوير مواقع وتطبيقات ويب، بهدف دعم التحول الرقمي ورفع كفاءة الأعمال من خلال حلول موثوقة ومرنة وعالية الأداء.
+          </p>
+        </div>
+        <div class="card p-6">
+          <h3 class="font-semibold text-white">قيمنا</h3>
+          <ul class="mt-3 text-gray-300 text-sm space-y-1 list-disc pr-5">
+            <li>الجودة أولًا</li>
+            <li>المرونة والموثوقية</li>
+            <li>الأمان والامتثال</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- الخدمات التفصيلية -->
+  <section id="services" class="py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex items-end justify-between">
+        <h2 class="text-2xl font-bold text-white">الخدمات التي نقدمها</h2>
+        <a href="#contact" class="text-sm link">اطلب عرضًا →</a>
+      </div>
+
+      <div class="mt-6 grid md:grid-cols-2 gap-4">
+        <div class="card p-5">
+          <h3 class="font-semibold text-white">1) حلول الشبكات (Network Solutions)</h3>
+          <ul class="mt-3 text-sm text-gray-300 space-y-1 list-disc pr-5">
+            <li>تصميم وتنفيذ شبكات LAN / WAN</li>
+            <li>إعداد أجهزة Switches / Routers / Firewalls</li>
+            <li>تركيب وإعداد نقاط الوصول Wireless Access Points</li>
+            <li>تحسين الأداء ومعالجة مشاكل الشبكات</li>
+            <li>مراقبة الشبكات وإدارة العناوين IP Management</li>
+          </ul>
+        </div>
+
+        <div class="card p-5">
+          <h3 class="font-semibold text-white">2) إدارة السيرفرات والأنظمة (Servers & Systems)</h3>
+          <ul class="mt-3 text-sm text-gray-300 space-y-1 list-disc pr-5">
+            <li>تجهيز وإدارة خوادم Linux / Windows Server</li>
+            <li>إدارة قواعد البيانات MySQL / MariaDB / PostgreSQL</li>
+            <li>مراقبة أداء السيرفرات ومعالجة الأعطال</li>
+            <li>إعداد أنظمة النسخ الاحتياطي والاستعادة</li>
+            <li>تطبيق سياسات الحماية والأمان على الخوادم</li>
+          </ul>
+        </div>
+
+        <div class="card p-5">
+          <h3 class="font-semibold text-white">3) الحوسبة السحابية (Cloud Services)</h3>
+          <ul class="mt-3 text-sm text-gray-300 space-y-1 list-disc pr-5">
+            <li>نشر الأنظمة على AWS / Azure / GCP / DigitalOcean</li>
+            <li>بناء بيئات مرنة وقابلة للتوسع</li>
+            <li>إدارة الخوادم السحابية VPS / Containers / Docker</li>
+            <li>إعداد أنظمة التحميل المتوازن Load Balancing</li>
+          </ul>
+        </div>
+
+        <div class="card p-5">
+          <h3 class="font-semibold text-white">4) تطوير مواقع الويب (Web Development)</h3>
+          <ul class="mt-3 text-sm text-gray-300 space-y-1 list-disc pr-5">
+            <li>تصميم وبرمجة مواقع شركات ومتاجر إلكترونية</li>
+            <li>تطوير أنظمة إدارة المحتوى (CMS)</li>
+            <li>تطوير لوحات تحكم وأنظمة إدارة داخلية</li>
+            <li>ربط الأنظمة بواجهات برمجية APIs</li>
+          </ul>
+        </div>
+
+        <div class="card p-5">
+          <h3 class="font-semibold text-white">5) تطوير تطبيقات الويب والأنظمة</h3>
+          <ul class="mt-3 text-sm text-gray-300 space-y-1 list-disc pr-5">
+            <li>تصميم قواعد البيانات</li>
+            <li>واجهات مستخدم وتجربة UX/UI</li>
+            <li>أنظمة عمليات/شؤون موظفين/أرشفة/إدارة مشاريع</li>
+            <li>تكامل وربط الأنظمة الحالية (Integration)</li>
+          </ul>
+        </div>
+
+        <div class="card p-5">
+          <h3 class="font-semibold text-white">6) الأمن السيبراني وحماية الأنظمة (Cybersecurity)</h3>
+          <ul class="mt-3 text-sm text-gray-300 space-y-1 list-disc pr-5">
+            <li>فحص ثغرات الشبكات والتطبيقات</li>
+            <li>سياسات التحكم بالوصول Access Control</li>
+            <li>إدارة شهادات الأمان SSL</li>
+            <li>حماية الخوادم من الهجمات الشائعة</li>
+            <li>مراقبة السجلات والتنبيه للأنشطة المشبوهة</li>
+          </ul>
+        </div>
+
+        <div class="card p-5">
+          <h3 class="font-semibold text-white">7) الدعم الفني والصيانة (Technical Support)</h3>
+          <ul class="mt-3 text-sm text-gray-300 space-y-1 list-disc pr-5">
+            <li>دعم عن بُعد أو ميداني</li>
+            <li>استجابة للأعطال ومشاكل الشبكات</li>
+            <li>تدريب الموظفين على الأنظمة التقنية</li>
+            <li>عقود صيانة شهرية / سنوية</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-8 card p-5">
+        <h3 class="font-semibold text-white">الخدمات بصيغة مختصرة</h3>
+        <div class="mt-3 flex flex-wrap gap-2 text-sm">
+          <span class="chip">حلول شبكات متكاملة</span>
+          <span class="chip">إدارة السيرفرات والبنية التحتية</span>
+          <span class="chip">تطوير مواقع وتطبيقات ويب</span>
+          <span class="chip">خدمات سحابية</span>
+          <span class="chip">أمن معلومات وحماية الأنظمة</span>
+          <span class="chip">دعم فني وصيانة تشغيل</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- الباقات -->
+  <section id="pricing" class="py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-bold text-white">باقات مرنة</h2>
+      <div class="mt-6 grid md:grid-cols-3 gap-4">
+        <div class="card p-5">
+          <div class="flex items-baseline justify-between">
+            <span class="font-semibold">أساسي</span>
+            <span class="text-xl font-extrabold">—</span>
+          </div>
+          <ul class="mt-3 text-sm text-gray-300 space-y-2">
+            <li>استشارة أولية</li><li>خطة عمل مختصرة</li>
+          </ul>
+          <a href="#contact" class="mt-4 inline-flex items-center gap-1 px-4 py-2 rounded-xl btn-primary text-sm">
+            اختر الخطة <span class="chev">←</span>
+          </a>
+        </div>
+        <div class="card p-5">
+          <div class="flex items-baseline justify-between">
+            <span class="font-semibold">احترافي</span>
+            <span class="text-xl font-extrabold">—</span>
+          </div>
+          <ul class="mt-3 text-sm text-gray-300 space-y-2">
+            <li>تنفيذ ونشر</li><li>تقارير تقدم</li>
+          </ul>
+          <a href="#contact" class="mt-4 inline-flex items-center gap-1 px-4 py-2 rounded-xl btn-primary text-sm">
+            اختر الخطة <span class="chev">←</span>
+          </a>
+        </div>
+        <div class="card p-5">
+          <div class="flex items-baseline justify-between">
+            <span class="font-semibold">شركات</span>
+            <span class="text-xl font-extrabold">—</span>
+          </div>
+          <ul class="mt-3 text-sm text-gray-300 space-y-2">
+            <li>SSO و LMS</li><li>لوحة تحكم وتقارير</li>
+          </ul>
+          <a href="#contact" class="mt-4 inline-flex items-center gap-1 px-4 py-2 rounded-xl btn-primary text-sm">
+            اختر الخطة <span class="chev">←</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- تواصل -->
+  <section id="contact" class="py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="card p-6">
+        <h2 class="text-2xl font-bold text-white">تواصل معنا</h2>
+        <form class="mt-4 grid md:grid-cols-3 gap-3" onsubmit="event.preventDefault(); openWhatsApp()">
+          <input class="glass h-12 px-4" placeholder="الاسم" id="name">
+          <input class="glass h-12 px-4" placeholder="البريد" id="mail">
+          <input class="glass h-12 px-4" placeholder="الهاتف" id="phone">
+          <textarea class="glass p-4 md:col-span-3" rows="4" placeholder="كيف نقدر نساعدك؟" id="msg"></textarea>
+          <button class="h-12 px-5 rounded-2xl btn-primary md:col-span-3" type="submit">إرسال عبر واتساب</button>
+        </form>
+        <p class="mt-3 text-sm text-gray-300">أو راسلنا على: <a href="mailto:malolofi12@gmail.com" class="link">malolofi12@gmail.com</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- واتساب عائم -->
+  <a id="wa" aria-label="تواصل واتساب" class="wa-fab" href="#" onclick="openWhatsApp(); return false;">
+    واتساب
+  </a>
+
+  <!-- فوتر -->
+  <footer class="border-t border-gray-800">
+    <div class="max-w-6xl mx-auto px-4 py-8 text-xs text-gray-400 flex items-center justify-between">
+      <p>© <span id="y"></span> 3TN. جميع الحقوق محفوظة.</p>
+      <div class="flex gap-4">
+        <a href="#" class="hover:text-white">الشروط</a>
+        <a href="#" class="hover:text-white">الخصوصية</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
