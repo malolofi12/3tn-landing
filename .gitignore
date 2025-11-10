@@ -1,0 +1,5 @@
+# Node tooling (لما نضيف Tailwind محليًا)
+node_modules/
+dist/
+.vscode/
+.DS_Store
