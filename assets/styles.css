@@ -84,3 +84,9 @@ body{ font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "N
   .dot{ animation: none !important; }
   .card{ transition: none !important; }
 }
+input, textarea {
+  min-height: 52px !important;
+  font-size: 16px;
+}
+
+
